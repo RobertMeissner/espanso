@@ -22,4 +22,10 @@ matches:
   # Print the output of a shell command
   - trigger: ":qu"
     replace: "# Quellen\n\n[Web]($|$)"
+
+  - trigger: ":vg"
+    replace: "Viele Grüße\nRobert Meißner"
+
+  - trigger: ":mfg"
+    replace: "Mit freundlichen Grüßen\nRobert Meißner"
   # And much more! For more information, visit the docs: https://espanso.org/docs/
