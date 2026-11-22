@@ -28,4 +28,9 @@ matches:
 
   - trigger: ":mfg"
     replace: "Mit freundlichen Grüßen\nRobert Meißner"
+
+
+  - trigger: ":bug"
+    replace: "\n> [!bug] $|$\n"
+
   # And much more! For more information, visit the docs: https://espanso.org/docs/
